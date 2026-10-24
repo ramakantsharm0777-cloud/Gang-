@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Harvest Farm | Fresh Produce & Agricultural Services Kanpur</title>
+  <meta name="description" content="Discover fresh seasonal vegetables and responsible farming products from Green Harvest Farm in Kanpur, Uttar Pradesh. Enquire for local supply and bulk orders.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              600: '#16a34a',
+              700: '#15803d',
+              800: '#166534',
+              900: '#14532d',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-stone-800 antialiased font-sans">
+
+  <!-- TOP INFO BAR -->
+  <aside class="bg-stone-100 border-b border-stone-200 text-stone-600 text-xs py-2 px-4" aria-label="Announcement & Quick Contacts">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center space-x-2">
+        <span class="inline-block w-2 h-2 rounded-full bg-brand-600"></span>
+        <span>Kanpur, Uttar Pradesh &bull; Serving Local Homes &amp; Businesses</span>
+      </div>
+      <div class="flex items-center space-x-6">
+        <span>Mon - Sat: 8:00 AM - 6:00 PM</span>
+        <a href="tel:+919876543210" class="text-brand-700 font-semibold hover:underline">+91 9876543210</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- NAVIGATION -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="#hero" class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-lg bg-brand-700 text-white flex items-center justify-center font-bold text-xl shadow-sm">
+          GH
+        </div>
+        <div>
+          <span class="text-xl font-bold tracking-tight text-stone-900 block leading-tight">Green Harvest</span>
+          <span class="text-xs uppercase tracking-wider text-brand-700 font-medium">Farm &bull; Kanpur</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-stone-600">
+        <a href="#services" class="hover:text-brand-700 transition-colors">Our Services</a>
+        <a href="#why-us" class="hover:text-brand-700 transition-colors">Why Choose Us</a>
+        <a href="#about" class="hover:text-brand-700 transition-colors">About Us</a>
+        <a href="#testimonials" class="hover:text-brand-700 transition-colors">Feedback</a>
+        <a href="#contact" class="hover:text-brand-700 transition-colors">Contact</a>
+      </nav>
+
+      <div class="hidden md:flex items-center space-x-3">
+        <a href="https://wa.me/919876543210?text=Hello%20Green%20Harvest%20Farm,%20I%20am%20interested%20in%20your%20produce." target="_blank" rel="noopener" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-emerald-800 bg-emerald-50 hover:bg-emerald-100 rounded-lg border border-emerald-200 transition-colors">
+          WhatsApp
+        </a>
+        <a href="#contact" class="inline-flex items-center justify-center px-4 py-2 text-sm font-medium text-white bg-brand-700 hover:bg-brand-800 rounded-lg transition-colors shadow-sm">
+          Enquire Now
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" type="button" class="md:hidden p-2 rounded-md text-stone-600 hover:text-stone-900 hover:bg-stone-100" aria-label="Toggle navigation menu">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="hidden md:hidden border-b border-stone-200 bg-stone-50 px-4 pt-3 pb-6 space-y-3 text-sm">
+      <a href="#services" class="block py-2 text-stone-700 font-medium">Our Services</a>
+      <a href="#why-us" class="block py-2 text-stone-700 font-medium">Why Choose Us</a>
+      <a href="#about" class="block py-2 text-stone-700 font-medium">About Us</a>
+      <a href="#testimonials" class="block py-2 text-stone-700 font-medium">Feedback</a>
+      <a href="#contact" class="block py-2 text-stone-700 font-medium">Contact</a>
+      <div class="pt-2 flex flex-col gap-2">
+        <a href="tel:+919876543210" class="w-full text-center py-2.5 bg-white border border-stone-300 rounded-lg text-stone-700 font-medium">Call +91 9876543210</a>
+        <a href="#contact" class="w-full text-center py-2.5 bg-brand-700 text-white rounded-lg font-medium">Enquire Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="hero" class="py-16 md:py-24 bg-gradient-to-b from-stone-50 to-white overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <!-- Content -->
+        <div class="lg:col-span-7 space-y-6">
+          <div class="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-brand-50 border border-brand-100 text-brand-800 text-xs font-semibold tracking-wide uppercase">
+            <span>Local &bull; Fresh &bull; Kanpur</span>
+          </div>
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-stone-900 tracking-tight leading-tight">
+            Fresh Farm Produce, Grown With Care
+          </h1>
+          <p class="text-lg sm:text-xl text-stone-600 max-w-2xl font-normal leading-relaxed">
+            Discover fresh seasonal vegetables and quality farm produce from Green Harvest Farm in Kanpur, Uttar Pradesh. Direct from our fields to local homes and businesses.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 pt-2">
+            <a href="#services" class="inline-flex items-center justify-center px-6 py-3.5 text-base font-medium rounded-lg text-white bg-brand-700 hover:bg-brand-800 shadow-sm transition duration-150">
+              Explore Our Products
+            </a>
+            <a href="#contact" class="inline-flex items-center justify-center px-6 py-3.5 text-base font-medium rounded-lg text-stone-700 bg-white border border-stone-300 hover:bg-stone-50 hover:border-stone-400 transition duration-150">
+              Contact Our Farm
+            </a>
+          </div>
+          <div class="pt-6 border-t border-stone-200 grid grid-cols-3 gap-4 text-left">
+            <div>
+              <p class="text-2xl font-bold text-stone-900">100%</p>
+              <p class="text-xs text-stone-500 mt-1">Farm Fresh Quality</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold text-stone-900">Kanpur</p>
+              <p class="text-xs text-stone-500 mt-1">Local Farm Location</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold text-stone-900">Mon-Sat</p>
+              <p class="text-xs text-stone-500 mt-1">Customer Support</p>
+            </div>
+          </div>
+        </div>
+        <!-- Hero Image -->
+        <div class="lg:col-span-5">
+          <div class="relative">
+            <div class="aspect-w-4 aspect-h-3 sm:aspect-w-16 sm:aspect-h-12 overflow-hidden rounded-2xl shadow-xl border border-stone-200 bg-stone-100">
+              <img src="https://images.unsplash.com/photo-1592417817098-8f3d6eb2251d?auto=format&fit=crop&w=1000&q=80" alt="Farmer standing proudly in a vibrant green agricultural field in Kanpur" class="w-full h-full object-cover object-center" loading="eager" width="1000" height="750">
+            </div>
+            <div class="absolute -bottom-4 -left-4 bg-white border border-stone-200 rounded-xl p-3 shadow-lg flex items-center space-x-3">
+              <div class="w-10 h-10 rounded-full bg-brand-100 flex items-center justify-center text-brand-800">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+              </div>
+              <div>
+                <p class="text-xs text-stone-500">Produce Availability</p>
+                <p class="text-sm font-semibold text-stone-900">Harvested Daily</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-xs font-bold text-brand-700 tracking-widest uppercase mb-3">Our Core Agriculture Services</h2>
+        <p class="text-3xl sm:text-4xl font-extrabold text-stone-900">What We Offer</p>
+        <p class="mt-4 text-base sm:text-lg text-stone-600">Fresh agricultural produce and dedicated farming services tailored for local retail clients, culinary kitchens, and households.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Service 1 -->
+        <article class="bg-white rounded-xl border border-stone-200 overflow-hidden hover:border-brand-600/50 hover:shadow-md transition duration-200 flex flex-col">
+          <div class="h-48 overflow-hidden bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1610348725531-843dff563e2c?auto=format&fit=crop&w=800&q=80" alt="Fresh seasonal vegetables harvested on the farm" class="w-full h-full object-cover" loading="lazy" width="800" height="400">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-stone-900 mb-2">Fresh Vegetables</h3>
+              <p class="text-sm text-stone-600 leading-relaxed">Explore seasonal vegetables harvested for local customers with optimal freshness and natural nutritional value.</p>
+            </div>
+            <div class="mt-4 pt-4 border-t border-stone-100">
+              <span class="text-xs font-semibold text-brand-700">Seasonal Varieties Available</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 2 -->
+        <article class="bg-white rounded-xl border border-stone-200 overflow-hidden hover:border-brand-600/50 hover:shadow-md transition duration-200 flex flex-col">
+          <div class="h-48 overflow-hidden bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?auto=format&fit=crop&w=800&q=80" alt="Organic farming and healthy soil management" class="w-full h-full object-cover" loading="lazy" width="800" height="400">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-stone-900 mb-2">Organic Farming</h3>
+              <p class="text-sm text-stone-600 leading-relaxed">Learn about responsible farming methods and healthy soil practices that prioritize environmental balance.</p>
+            </div>
+            <div class="mt-4 pt-4 border-t border-stone-100">
+              <span class="text-xs font-semibold text-brand-700">Responsible Soil Stewardship</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 3 -->
+        <article class="bg-white rounded-xl border border-stone-200 overflow-hidden hover:border-brand-600/50 hover:shadow-md transition duration-200 flex flex-col">
+          <div class="h-48 overflow-hidden bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80" alt="Fresh farm produce and harvest crates" class="w-full h-full object-cover" loading="lazy" width="800" height="400">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-stone-900 mb-2">Farm Products</h3>
+              <p class="text-sm text-stone-600 leading-relaxed">Discover fresh produce and agricultural products available directly from our fields for local residents.</p>
+            </div>
+            <div class="mt-4 pt-4 border-t border-stone-100">
+              <span class="text-xs font-semibold text-brand-700">Direct From Farm</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 4 -->
+        <article class="bg-white rounded-xl border border-stone-200 overflow-hidden hover:border-brand-600/50 hover:shadow-md transition duration-200 flex flex-col">
+          <div class="h-48 overflow-hidden bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=800&q=80" alt="Agronomist and farmer inspecting crop health" class="w-full h-full object-cover" loading="lazy" width="800" height="400">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-stone-900 mb-2">Crop Consultation</h3>
+              <p class="text-sm text-stone-600 leading-relaxed">Get basic guidance about crop selection and common farming practices adapted to the regional Uttar Pradesh climate.</p>
+            </div>
+            <div class="mt-4 pt-4 border-t border-stone-100">
+              <span class="text-xs font-semibold text-brand-700">Local Knowledge Sharing</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 5 -->
+        <article class="bg-white rounded-xl border border-stone-200 overflow-hidden hover:border-brand-600/50 hover:shadow-md transition duration-200 flex flex-col">
+          <div class="h-48 overflow-hidden bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1597362925123-77861d3fbac7?auto=format&fit=crop&w=800&q=80" alt="Bulk vegetable crates ready for commercial transport" class="w-full h-full object-cover" loading="lazy" width="800" height="400">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-stone-900 mb-2">Bulk Orders</h3>
+              <p class="text-sm text-stone-600 leading-relaxed">Contact us to discuss vegetable orders for shops, restaurants, caterers, and local business markets across Kanpur.</p>
+            </div>
+            <div class="mt-4 pt-4 border-t border-stone-100">
+              <span class="text-xs font-semibold text-brand-700">Commercial Inquiries Welcome</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 6 -->
+        <article class="bg-white rounded-xl border border-stone-200 overflow-hidden hover:border-brand-600/50 hover:shadow-md transition duration-200 flex flex-col">
+          <div class="h-48 overflow-hidden bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1566385101042-1a0aa0c1268c?auto=format&fit=crop&w=800&q=80" alt="Local farm supply display of freshly picked greens" class="w-full h-full object-cover" loading="lazy" width="800" height="400">
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-bold text-stone-900 mb-2">Local Farm Supply</h3>
+              <p class="text-sm text-stone-600 leading-relaxed">Ask about the ongoing availability of seasonal produce and coordinate scheduled local pickup or delivery options.</p>
+            </div>
+            <div class="mt-4 pt-4 border-t border-stone-100">
+              <span class="text-xs font-semibold text-brand-700">Flexible Pickup &amp; Supply</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="why-us" class="py-20 bg-stone-50 border-y border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-xs font-bold text-brand-700 tracking-widest uppercase mb-2">Our Commitments</h2>
+        <p class="text-3xl font-extrabold text-stone-900">Why Choose Green Harvest Farm?</p>
+        <p class="mt-3 text-stone-600 text-sm sm:text-base">We prioritize sustainable soil care, respectful customer communication, and honest farm-to-table practices.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Feature 1 -->
+        <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+          </div>
+          <h3 class="text-lg font-bold text-stone-900 mb-2">Fresh Produce</h3>
+          <p class="text-sm text-stone-600">Seasonal farm produce, subject to natural seasonal availability and harvested right at maturity.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          </div>
+          <h3 class="text-lg font-bold text-stone-900 mb-2">Local Farming</h3>
+          <p class="text-sm text-stone-600">A community farming business proudly rooted in and serving customers across the Kanpur area.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+          </div>
+          <h3 class="text-lg font-bold text-stone-900 mb-2">Friendly Service</h3>
+          <p class="text-sm text-stone-600">Helpful communication and responsive answers for all wholesale and retail customer enquiries.</p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow">
+          <div class="w-12 h-12 rounded-lg bg-brand-50 text-brand-700 flex items-center justify-center mb-5">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          </div>
+          <h3 class="text-lg font-bold text-stone-900 mb-2">Quality Focus</h3>
+          <p class="text-sm text-stone-600">Careful attention to crop handling, safe field storage, and genuine produce freshness at every step.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT OUR FARM -->
+  <section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Visual -->
+        <div class="relative order-2 lg:order-1">
+          <div class="overflow-hidden rounded-2xl shadow-md border border-stone-200 bg-stone-100">
+            <img src="https://images.unsplash.com/photo-1595974482597-4b8da8879bc5?auto=format&fit=crop&w=1000&q=80" alt="Farmer tending lush green crops naturally at Green Harvest Farm" class="w-full h-[400px] object-cover" loading="lazy" width="1000" height="400">
+          </div>
+          <div class="absolute -bottom-6 -right-6 hidden sm:block w-48 p-4 bg-brand-700 text-white rounded-xl shadow-lg text-center">
+            <p class="text-2xl font-bold">Kanpur</p>
+            <p class="text-xs uppercase tracking-wider text-brand-100">Uttar Pradesh, India</p>
+          </div>
+        </div>
+
+        <!-- Text -->
+        <div class="order-1 lg:order-2 space-y-6">
+          <div class="inline-block text-xs font-bold text-brand-700 uppercase tracking-widest">About Our Heritage</div>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-stone-900 leading-tight">Growing With Care, Serving Our Community</h2>
+          <p class="text-stone-600 text-base sm:text-lg leading-relaxed">
+            Green Harvest Farm is a local agricultural business in Kanpur, Uttar Pradesh. We work with a focus on seasonal crops, fresh farm produce, and responsible farming practices. We aim to make it easier for local customers and businesses to enquire about available products.
+          </p>
+          <p class="text-stone-600 text-sm leading-relaxed">
+            Our goal is to foster long-term partnerships with families, grocery retailers, and regional restaurants who value natural quality and transparent agricultural sourcing.
+          </p>
+          <div class="pt-2">
+            <a href="#contact" class="inline-flex items-center px-6 py-3 border border-brand-700 text-brand-700 font-semibold rounded-lg hover:bg-brand-700 hover:text-white transition duration-150">
+              Contact Our Farm
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS (DEMO CONTENT) -->
+  <section id="testimonials" class="py-20 bg-stone-50 border-t border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="inline-block px-3 py-1 bg-amber-50 text-amber-800 text-xs font-semibold rounded-full border border-amber-200 mb-3">
+          Demonstration Reviews Only
+        </span>
+        <h2 class="text-3xl font-extrabold text-stone-900">What Our Customers Say</h2>
+        <p class="mt-2 text-stone-500 text-sm">Fictional placeholder reviews for interface presentation purposes.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Review 1 -->
+        <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 mb-3" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="text-stone-700 text-sm italic leading-relaxed">"Sample demo review: The farm website makes it easy to explore available vegetables and contact the business."</p>
+          </div>
+          <div class="flex items-center space-x-3 mt-6 pt-4 border-t border-stone-100">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Avatar representation of Rahul Verma" class="w-10 h-10 rounded-full object-cover border border-stone-200">
+            <div>
+              <p class="text-sm font-bold text-stone-900">Rahul Verma</p>
+              <p class="text-xs text-stone-500">Sample Demo Profile &bull; Kanpur</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 mb-3" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="text-stone-700 text-sm italic leading-relaxed">"Sample demo review: The product information is clear, and the contact section is easy to use."</p>
+          </div>
+          <div class="flex items-center space-x-3 mt-6 pt-4 border-t border-stone-100">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80" alt="Avatar representation of Priya Singh" class="w-10 h-10 rounded-full object-cover border border-stone-200">
+            <div>
+              <p class="text-sm font-bold text-stone-900">Priya Singh</p>
+              <p class="text-xs text-stone-500">Sample Demo Profile &bull; Uttar Pradesh</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="flex text-amber-400 mb-3" aria-hidden="true">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+            <p class="text-stone-700 text-sm italic leading-relaxed">"Sample demo review: I like the clean design and the simple way to enquire about farm products."</p>
+          </div>
+          <div class="flex items-center space-x-3 mt-6 pt-4 border-t border-stone-100">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80" alt="Avatar representation of Amit Kumar" class="w-10 h-10 rounded-full object-cover border border-stone-200">
+            <div>
+              <p class="text-sm font-bold text-stone-900">Amit Kumar</p>
+              <p class="text-xs text-stone-500">Sample Demo Profile &bull; Kanpur</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION SECTION -->
+  <section class="py-16 bg-brand-800 text-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">Looking for Fresh Farm Produce?</h2>
+      <p class="text-brand-100 text-base sm:text-lg max-w-2xl mx-auto">
+        Contact Green Harvest Farm to enquire about seasonal vegetables, farm products, and bulk orders for commercial or family requirements.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4 pt-2">
+        <a href="tel:+919876543210" class="inline-flex items-center justify-center px-6 py-3.5 bg-white text-brand-900 font-semibold rounded-lg hover:bg-brand-50 transition shadow">
+          <svg class="w-5 h-5 mr-2 text-brand-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+          Call Our Farm
+        </a>
+        <a href="https://wa.me/919876543210?text=Hi%20Green%20Harvest%20Farm,%20I%20would%20like%20to%20enquire%20about%20bulk%20produce." target="_blank" rel="noopener" class="inline-flex items-center justify-center px-6 py-3.5 bg-brand-900 hover:bg-brand-950 text-white font-semibold rounded-lg border border-brand-700 transition">
+          <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.694.079-2.127-.515-1.615-.669-2.658-2.316-2.738-2.423-.082-.108-.66-88-.66-1.68 0-.8.419-1.196.568-1.355.149-.158.325-.198.434-.198.108 0 .216.001.311.006.1.005.234-.038.366.279.136.327.466 1.139.507 1.222.041.083.069.18.014.288-.054.108-.081.176-.162.271-.081.095-.171.213-.244.286-.081.081-.166.169-.071.332.095.163.423.699.907 1.131.623.555 1.149.728 1.312.809.163.081.258.068.353-.041.095-.108.407-.474.515-.637.108-.163.217-.136.366-.081.149.054.949.447 1.112.529.163.081.271.122.311.19.041.068.041.394-.103.799z"/></svg>
+          WhatsApp Enquiry
+        </a>
+      </div>
+      <p class="text-xs text-brand-300">Demo contact link: +91 9876543210 (Placeholder)</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-xs font-bold text-brand-700 tracking-widest uppercase mb-2">Connect With Us</h2>
+        <p class="text-3xl sm:text-4xl font-extrabold text-stone-900">Contact Green Harvest Farm</p>
+        <p class="mt-3 text-stone-600">Have questions about seasonal vegetables, delivery schedules, or bulk purchasing? Drop us a note or visit us.</p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <!-- Info & Map -->
+        <div class="lg:col-span-5 space-y-6">
+          <div class="bg-stone-50 p-6 rounded-xl border border-stone-200 space-y-4">
+            <h3 class="text-lg font-bold text-stone-900 border-b border-stone-200 pb-3">Business Information</h3>
+            
+            <div class="flex items-start space-x-3 text-sm">
+              <svg class="w-5 h-5 text-brand-700 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"></path></svg>
+              <div>
+                <p class="font-semibold text-stone-900">Business Name</p>
+                <p class="text-stone-600">Green Harvest Farm</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3 text-sm">
+              <svg class="w-5 h-5 text-brand-700 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+              <div>
+                <p class="font-semibold text-stone-900">Location</p>
+                <p class="text-stone-600">Kanpur, Uttar Pradesh, India</p>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3 text-sm">
+              <svg class="w-5 h-5 text-brand-700 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+              <div>
+                <p class="font-semibold text-stone-900">Phone / WhatsApp</p>
+                <a href="tel:+919876543210" class="text-brand-700 hover:underline">+91 9876543210 <span class="text-xs text-stone-400">(Demo Number)</span></a>
+              </div>
+            </div>
+
+            <div class="flex items-start space-x-3 text-sm">
+              <svg class="w-5 h-5 text-brand-700 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              <div>
+                <p class="font-semibold text-stone-900">Working Hours</p>
+                <p class="text-stone-600">Monday - Saturday: 8:00 AM – 6:00 PM</p>
+                <p class="text-xs text-stone-500">Sunday: Closed for farm maintenance</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Google Maps Kanpur general area -->
+          <div class="rounded-xl overflow-hidden border border-stone-200 h-64 bg-stone-100">
+            <iframe 
+              title="Kanpur General Area Map Placeholder"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114324.5779038031!2d80.25925348984931!3d26.447412792610574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c4770b127c46f%3A0x1778302a9fbe7b41!2sKanpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="lg:col-span-7">
+          <div class="bg-white p-8 rounded-xl border border-stone-200 shadow-sm">
+            <div class="mb-6 pb-4 border-b border-stone-100">
+              <h3 class="text-xl font-bold text-stone-900">Send an Enquiry</h3>
+              <p class="text-sm text-stone-500 mt-1">Fill out the form below. Please note this is a frontend demonstration mock-up.</p>
+            </div>
+
+            <!-- Frontend-only Disclaimer Banner -->
+            <div class="mb-6 p-3 rounded-lg bg-amber-50 border border-amber-200 text-amber-800 text-xs">
+              <strong>Notice:</strong> This form is for UI preview purposes only. Messages will not be dispatched until an active form handler or backend email service is connected.
+            </div>
+
+            <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Demo Form: This mock interface does not transmit actual data. Connect an endpoint to activate submissions.');" class="space-y-4">
+              <div>
+                <label for="fullName" class="block text-sm font-semibold text-stone-700 mb-1">Full Name</label>
+                <input type="text" id="fullName" name="fullName" required placeholder="e.g. Ramesh Chandra" class="w-full px-4 py-2.5 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm">
+              </div>
+
+              <div>
+                <label for="phoneNumber" class="block text-sm font-semibold text-stone-700 mb-1">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required placeholder="+91 98765 43210" class="w-full px-4 py-2.5 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm">
+              </div>
+
+              <div>
+                <label for="serviceRequired" class="block text-sm font-semibold text-stone-700 mb-1">Product or Service Required</label>
+                <select id="serviceRequired" name="serviceRequired" class="w-full px-4 py-2.5 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm bg-white">
+                  <option value="Fresh Seasonal Vegetables">Fresh Seasonal Vegetables</option>
+                  <option value="Organic Produce Query">Organic Produce Query</option>
+                  <option value="Bulk Vegetable Orders">Bulk Vegetable Orders</option>
+                  <option value="Crop Consultation">Crop Consultation</option>
+                  <option value="General Farm Enquiry">General Farm Enquiry</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="message" class="block text-sm font-semibold text-stone-700 mb-1">Message</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Specify your desired vegetables, estimated quantity, or farm consultation requirement..." class="w-full px-4 py-2.5 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-brand-600 focus:border-brand-600 text-sm"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-3.5 px-6 rounded-lg bg-brand-700 hover:bg-brand-800 text-white font-medium text-sm tracking-wide shadow-sm transition duration-150">
+                Submit Enquiry
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-stone-900 text-stone-400 py-12 border-t border-stone-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 pb-8 border-b border-stone-800">
+        <div class="md:col-span-2 space-y-3">
+          <p class="text-white font-bold text-lg">Green Harvest Farm</p>
+          <p class="text-xs text-stone-400 max-w-sm leading-relaxed">
+            Local agricultural farm based in Kanpur, Uttar Pradesh, India. Focused on seasonal vegetables, responsible farming, and local supply relationships.
+          </p>
+          <p class="text-xs text-brand-500 font-semibold">Demo presentation template &bull; Kanpur, UP</p>
+        </div>
+
+        <div>
+          <p class="text-stone-200 font-semibold text-sm mb-3">Quick Navigation</p>
+          <ul class="space-y-2 text-xs">
+            <li><a href="#hero" class="hover:text-white transition">Home</a></li>
+            <li><a href="#services" class="hover:text-white transition">What We Offer</a></li>
+            <li><a href="#why-us" class="hover:text-white transition">Why Choose Us</a></li>
+            <li><a href="#about" class="hover:text-white transition">About Our Farm</a></li>
+            <li><a href="#testimonials" class="hover:text-white transition">Customer Feedback</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="text-stone-200 font-semibold text-sm mb-3">Farm Location &amp; Hours</p>
+          <ul class="space-y-2 text-xs leading-relaxed">
+            <li>Kanpur, Uttar Pradesh, India</li>
+            <li>Mon - Sat: 8:00 AM - 6:00 PM</li>
+            <li>Phone: <a href="tel:+919876543210" class="hover:text-white">+91 9876543210</a> (Demo)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row justify-between items-center text-xs text-stone-500 gap-4">
+        <p>&copy; 2026 Green Harvest Farm. Demo website created for presentation purposes.</p>
+        <p>HTML5 &bull; Tailwind CSS &bull; Frontend Mockup</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Lightweight toggle for mobile navigation
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
